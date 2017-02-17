@@ -16,6 +16,9 @@ Bug fixes:
 
 - removed "change portal event" permission
   [kakshay21]
+- Make sure the effects of the robotframework REMOTE_LIBRARY_ROBOT_TESTING fixture
+  are not accidentally removed when tearing down the PLONE_APP_DISCUSSION_ROBOT_TESTING fixture.
+  [davisagli]
 
 
 3.0.0 (2017-02-12)
